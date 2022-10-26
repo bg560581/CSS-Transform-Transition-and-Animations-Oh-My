@@ -12,7 +12,9 @@ body  {
 }
 
 img {
+  position: relative;
   width: 80%;
+  z-index: 0;
 }
 
 button {
@@ -20,8 +22,14 @@ button {
   margin: .2em;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 1.5em;
+  border: none;
+
 }
 
 button:hover {
   background-color: cornflowerblue;
+  transition: .5s;
+  color: aliceblue;
 }
+
+

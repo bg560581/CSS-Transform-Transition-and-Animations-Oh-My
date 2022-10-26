@@ -1,3 +1,18 @@
 main {
+    transform: rotate(-5deg);  
 
 }
+.info{  
+    transform: rotate(90deg);
+    transform:skew(-6deg);
+    font-weight: bold;  
+
+}
+
+h1{
+    position: relative;
+        left: 400px;
+
+
+}
+
